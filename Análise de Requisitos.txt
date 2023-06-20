@@ -1,0 +1,44 @@
+﻿Análise de Requisitos
+
+
+User
+* Login
+* Criar conta
+* Editar os dados do perfil
+
+
+
+
+Dashboard
+
+
+* Wishlist
+   * Adicionar empresas
+   * Remover empresas
+   * Guardar informaçao sobre empresa e sobre a vaga (link da vaga)
+
+
+
+
+* Applied
+   * Adicionar empresas
+   * Remover empresas
+   * Ver informação como: date of application, cover letter, se já houve resposta
+
+
+* Interviews
+   * Se houve uma resposta positiva, vaga passa para esta aba
+   * Possível ver a data da entrevista
+   * E a fase da mesma
+
+
+
+
+* Rejected
+   * Se houve uma resposta negativa, vaga passar para aba Rejected
+
+
+
+
+* Offer
+   * Adicionar vaga e ofertas recebidas
