@@ -8,10 +8,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'login-bg': "url('/images/login-signup-bg.png')"
       },
+      colors: {
+        'primary': '#323377',
+        'secondary': '#F4F4F4',
+        
+      }
     },
   },
   plugins: [],
