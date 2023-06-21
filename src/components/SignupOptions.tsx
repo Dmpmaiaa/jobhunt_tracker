@@ -4,7 +4,7 @@ import FacebookIcon from "../../public/images/icons/facebook.png";
 import AppleIcon from "../../public/images/icons/apple.png";
 import Image from "next/image";
 
-const SignOptions = () => {
+const SignUpOptions = () => {
   const headerStyles = {
     position: "absolute",
     top: "180px",
@@ -54,4 +54,4 @@ const SignOptions = () => {
   );
 };
 
-export default SignOptions; 
+export default SignUpOptions; 
