@@ -14,7 +14,13 @@ const SignOptions = () => {
   const socialsStyles = {
     position: "absolute",
     top: "225px",
-    right: "50px",
+    right: "55px",
+  };
+  const spanStyles = {
+    position: "absolute",
+    top: "332px",
+    left: "50%",
+    transform: "translateX(-50%)",
   };
 
   return (
@@ -40,9 +46,10 @@ const SignOptions = () => {
           className="mr-4"
         />
         <Image src={AppleIcon} width={80} height={70} alt="AppleIcon" />
-
       </div>
-        <span className="flex justify-center">or</span>
+      <div className="flex justify-center" style={spanStyles}>
+        <span className="text-sm">or</span>
+      </div>
     </div>
   );
 };
